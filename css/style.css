@@ -1,0 +1,62 @@
+.navbar{
+    color:#E21E2D;
+    background:red;
+    border: 0;
+    margin: 0px;
+}
+
+.nav {
+   display: inline-block;
+   white-space: nowrap;
+   text-align: center;
+}
+
+  nav li{
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 104px;
+    text-align: center;
+    align-items: center;
+  }
+
+  nav {
+      position: absolute;
+      top: 110px;
+      right: 0;
+  }
+
+  nav li {
+      display: inline;
+      margin: 0 0 0 15px;
+      
+  }
+
+  nav a {
+      text-transform: uppercase;
+      color: #000000;
+      font-weight: bold;
+      font-size: 22px;
+      text-decoration: none;
+      color: #fecb00;
+  }
+
+  header .row {
+      margin: 20px 0;
+      padding: 0;
+      width: 100%;
+
+
+  }
+
+  header .navbar-header {
+      float: none;
+
+  }
+
+  header {
+    nav-up: auto;
+    border-bottom: 1px solid #E21E2D;
+    padding-bottom: 300px;
+    background:red;
+
+}
