@@ -30,13 +30,12 @@
 
   nav li {
       display: inline;
-      margin: 0 0 0 15px;
-
+      margin: 0 0 0 10px;
   }
 
   nav a {
       text-transform: uppercase;
-      color: #000000;
+      color: #000300;
       font-weight: bold;
       font-size: 22px;
       text-decoration: none;
@@ -61,9 +60,11 @@
     border-bottom: 1px solid #E21E2D;
     padding-bottom: 300px;
     background:red;
+    width:100%;
 
 }
-  i{
+
+  nav i{
     color:yellow;
 
 
@@ -77,3 +78,30 @@
     padding-right: 100px;
 
   }
+
+
+ body{
+   background-color: #ffc107;
+ }
+
+   body li {
+       color:purple ;
+   display: incline;
+   list-style: none;
+ }
+
+ #img1{
+   height:400px;
+ }
+
+ #img2{
+   height:400px;
+ }
+ #img3{
+   height:400px;
+ }
+
+ .social{
+   display: inline-flex;
+   margin: 202px;
+ }
